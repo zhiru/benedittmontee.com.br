@@ -49,6 +49,37 @@ body #topo-slider {
     background: #111;
 }
 
+body #topo-slider .flex-viewport {
+    height: 100%;
+}
+
+body #topo-slider .slides {
+    height: 100%;
+    zoom: 1;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
 body #topo-slider ul li {
     color: #fff;
+}
+
+body #topo-slider ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body #topo-slider ul li a strong {
+    color: #fff;
+}
+
+@media only screen and (max-width: 767px)  {
+    body body #topo-slider .flex-direction-nav {
+        display: none;
+    }
 }
