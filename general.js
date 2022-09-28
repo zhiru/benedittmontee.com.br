@@ -80,7 +80,8 @@ DEPOIMENTOS = [
     
         template = $('.template-slider').html();
         if(template != ""){
-            $('.barra-inicial.fundo-secundario').before(template);
+            // $('.barra-inicial.fundo-secundario').before(template);
+            $('.conteiner-principal > #cabecalho').before(template);
             $('#topo-slider').flexslider({
                 animation: "slide",
                 controlNav: false
