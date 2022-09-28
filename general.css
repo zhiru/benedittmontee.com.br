@@ -65,17 +65,21 @@ body #topo-slider .slides {
     align-items: center;
 }
 
-body #topo-slider ul li {
+body #topo-slider ul.slides li {
     color: #fff;
 }
 
-body #topo-slider ul li a {
+body #topo-slider ul.slides li a {
     text-decoration: none;
     color: #fff;
+    font-size: 18px;
 }
 
-body #topo-slider ul li a strong {
-    color: #fff;
+body #cabecalho {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 @media only screen and (max-width: 767px)  {
